@@ -24,7 +24,7 @@ const AllRecoverdItems = () => {
       </Helmet>
       {/* Title and Layout Toggle */}
       <div className="flex justify-between items-center mb-6">
-        <h1 className="text-4xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 drop-shadow-lg">
+        <h1 className="text-4xl font-extrabold bg-clip-text text-transparent bg-blue-500 drop-shadow-lg">
           ✨ All Recovered Items ✨
         </h1>
 
@@ -56,7 +56,7 @@ const AllRecoverdItems = () => {
           No recovered items yet.
         </p>
       ) : layout === "card" ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 place-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 place-items-stretch">
           {recoveredItems.map((item) => (
             <UiRecoverItems key={item._id} item={item} />
           ))}

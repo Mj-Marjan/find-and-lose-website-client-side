@@ -15,7 +15,7 @@ const UiRecoverItems = ({ item }) => {
       viewport={{ once: true }}
       transition={{ duration: 0.5, ease: "easeOut" }}
       whileHover={{ scale: 1.05 }}
-      className="relative bg-gradient-to-br from-purple-500 via-pink-500 to-red-500 text-white p-6 rounded-2xl shadow-xl overflow-hidden cursor-pointer hover:shadow-2xl"
+      className="relative h-full bg-gradient-to-br from-purple-500 via-pink-500 to-red-500 text-white p-6 rounded-2xl shadow-xl overflow-hidden cursor-pointer hover:shadow-2xl"
     >
       {/* Glass overlay */}
       <div className="absolute inset-0 bg-white opacity-10 rounded-2xl pointer-events-none"></div>
