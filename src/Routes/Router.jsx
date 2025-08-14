@@ -13,6 +13,7 @@ import ViewDetails from "../Pages/View/ViewDetails";
 import UpdatePage from "../Pages/Update/UpdatePage";
 import TeamSlider from "../Pages/Team/TeamSlider";
 import ErrorPage from "../Pages/ErrorPage";
+import StatsSection from "../Pages/StatsSection";
 
 
 const router = createBrowserRouter(
@@ -42,6 +43,10 @@ const router = createBrowserRouter(
                 {
                     path: "/register",
                     element:<Register></Register>
+                },
+                {
+                    path: "/stats-section",
+                    element: <StatsSection></StatsSection>
                 },
                 {
                     path: "/manage-items",

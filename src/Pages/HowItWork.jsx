@@ -10,7 +10,7 @@ const steps = [
 export default function HowItWorks() {
   return (
     <section className="py-12 bg-gradient-to-br from-blue-50 to-blue-100 text-center">
-      <h2 className="text-3xl font-bold mb-8 text-blue-800">How It Works</h2>
+      <h2 className="text-4xl font-bold mb-8 text-blue-800">How It Works</h2>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-6xl mx-auto px-4">
         {steps.map((step, index) => (
           <motion.div

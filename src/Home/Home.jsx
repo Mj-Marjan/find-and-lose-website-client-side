@@ -6,6 +6,7 @@ import Testimonials from '../Pages/Testimonials/Testimonials';
 import FaqSection from '../Pages/FaqSection';
 import TeamSlider from '../Pages/Team/TeamSlider';
 import { Helmet } from 'react-helmet';
+import StatsSection from '../Pages/StatsSection';
 
 const Home = () => {
     return ( 
@@ -19,6 +20,7 @@ const Home = () => {
             <Testimonials></Testimonials>
             <FaqSection></FaqSection>
             <TeamSlider></TeamSlider>
+            <StatsSection></StatsSection>
         </div>
     );
 };
