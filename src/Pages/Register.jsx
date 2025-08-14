@@ -1,4 +1,4 @@
-import React, { use } from "react";
+import React, {  useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router";
 import { toast } from "react-toastify";
 import { motion } from "framer-motion";
@@ -9,7 +9,7 @@ import { updateProfile } from "firebase/auth";
 import { Helmet } from "react-helmet";
 
 const Register = () => {
-  const { createUser } = use(AuthContexts);
+  const { createUser } = useContext(AuthContexts);
   const navigate = useNavigate();
   const location = useLocation();
 

@@ -1,4 +1,4 @@
-import React, { use, useState } from 'react';
+import React, {  useContext, useState } from 'react';
 import AuthContexts from '../../Contexts/AuthContexts';
 import { useLoaderData } from 'react-router';
 import { toast } from 'react-toastify';
@@ -11,7 +11,7 @@ import { Helmet } from 'react-helmet';
 
 const UpdatePage = () => {
   const postData = useLoaderData();
-  const { user } = use(AuthContexts);
+  const { user } = useContext(AuthContexts);
   const [showSuccess, setShowSuccess] = useState(false);
 
   if (!postData) {

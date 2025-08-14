@@ -1,4 +1,4 @@
-import React, { use, useState } from "react";
+import React, {  useContext, useState } from "react";
 import { toast } from "react-toastify";
 import AuthContexts from "../../Contexts/AuthContexts";
 import { motion } from "framer-motion";
@@ -9,7 +9,7 @@ import successAnimation from "../../assets/success-animation.json";
 import { Helmet } from "react-helmet";
 
 const AddLostFoundItem = () => {
-  const { user } = use(AuthContexts);
+  const { user } = useContext(AuthContexts);
   const [loading, setLoading] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
 

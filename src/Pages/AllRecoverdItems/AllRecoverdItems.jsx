@@ -1,11 +1,11 @@
-import React, { use, useEffect, useState } from "react";
+import React, {  useContext, useEffect, useState } from "react";
 import UiRecoverItems from "./UiRecoverItems";
 import AuthContexts from "../../Contexts/AuthContexts";
 import { FaTh, FaList } from "react-icons/fa";
 import { Helmet } from "react-helmet";
 
 const AllRecoverdItems = () => {
-  const { user } = use(AuthContexts);
+  const { user } = useContext(AuthContexts);
   const [recoveredItems, setRecoveredItems] = useState([]);
   const [layout, setLayout] = useState("card"); // default layout
 
