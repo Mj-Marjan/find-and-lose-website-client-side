@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Md Marjan",
+    "role": "Frontend Developer & make this website",
+    "photo": "https://i.ibb.co/7J1b3cGJ/Whats-App-Image-2025-05-23-at-01-41-15-16f44d11.jpg"
+  },
+  {
+    "name": "Jhankar Mahbub",
+    "role": "King OF Programmer",
+    "photo": "https://i.ibb.co/GfMZ1LtK/Untitled.jpg"
+  },
+  {
+    "name": "Bill Gates",
+    "role": "UI/UX Designer",
+    "photo": "https://i.ibb.co/8DYM9zWB/Untitled.jpg"
+  },
+  {
+    "name": "Elon Musk",
+    "role": "Backend Developer",
+    "photo": "https://i.ibb.co/sdCxcMsb/Untitled.jpg"
+  },
+  {
+    "name": "Brendan Eich",
+    "role": "Frontend Developer",
+    "photo": "https://i.ibb.co/7NtJGFqF/Untitled.jpg"
+  },
+  {
+    "name": "Marissa Mayer",
+    "role": "UI/UX Designer",
+    "photo": "https://i.ibb.co/WNJSL6fj/Untitled.jpg"
+  }
+]

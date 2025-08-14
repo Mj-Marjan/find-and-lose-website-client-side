@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Lost Something Valuable?",
+    "description": "Post your lost item here and let others help you find it back quickly and easily.",
+    "image": "https://i.ibb.co/FkwvTSQp/Chat-GPT-Image-Jul-1-2025-04-46-55-PM.png",
+    "buttonText": "Report Lost Item",
+    "link": "/add-item"
+  },
+  {
+    "id": 2,
+    "title": "Found Something Unexpected?",
+    "description": "If you’ve found a personal item, post it now and connect with its rightful owner.",
+    "image": "https://i.ibb.co/RR68Prd/Chat-GPT-Image-Jul-1-2025-04-51-22-PM.png",
+    "buttonText": "Report Found Item",
+    "link": "/add-item"
+  },
+  {
+    "id": 3,
+    "title": "Connect with Real People",
+    "description": "Our platform bridges the gap between the finder and the seeker. Be the reason someone smiles today.",
+    "image": "https://media.istockphoto.com/id/841136006/photo/team-of-professional-esport-gamers-playing-in-competitive-video-games-on-a-cyber-games.jpg?s=1024x1024&w=is&k=20&c=Gd1ctJR3LPU2i1POJYhz5-HShD2RpWEVnnu_MOOCFME=",
+    "buttonText": "View Lost & Found",
+    "link": "/teamSlider"
+  },
+  {
+    "id": 4,
+    "title": "Your Lost Belongings Matter",
+    "description": "Every item has a story. Help reunite items with their owners through this trusted platform.",
+    "image": "https://i.ibb.co/N2jpGkY1/Chat-GPT-Image-Jul-1-2025-04-53-17-PM.png",
+    "buttonText": "See All Items",
+    "link": "/lost-found-items"
+  }
+]
