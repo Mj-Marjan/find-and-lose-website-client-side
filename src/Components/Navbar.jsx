@@ -28,7 +28,8 @@ const Navbar = () => {
       transition={{ duration: 0.6, type: 'spring' }}
       className="sticky top-0 z-50 bg-base-100 shadow-md backdrop-blur-md"
     >
-      <div className="navbar w-11/12 mx-auto">
+      <div className=' bg-gradient-to-b from-blue-50 to-blue-100 rounded-lg shadow-lg px-4 '>
+        <div className="navbar w-15/16 mx-auto">
         {/* START */}
         <div className="navbar-start">
           <div className="dropdown">
@@ -129,6 +130,7 @@ const Navbar = () => {
             </motion.div>
           )}
         </div>
+      </div>
       </div>
     </motion.div>
   );

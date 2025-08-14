@@ -9,7 +9,7 @@ import { Helmet } from 'react-helmet';
 
 const Home = () => {
     return ( 
-        <div className='bg-gradient-to-br from-blue-100 via-white to-blue-50'>
+        <div className='bg-gradient-to-t from-blue-100 to-blue-50'>
             <Helmet>
                 <title>Home - WhereIsIt</title>
             </Helmet>
