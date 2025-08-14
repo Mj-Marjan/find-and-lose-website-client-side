@@ -9,28 +9,30 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section className="py-12 bg-gradient-to-br from-blue-50 to-blue-100 text-center">
+    <section className="py-10 bg-gradient-to-br from-blue-50 to-blue-100 text-center">
       <h2 className="text-4xl font-bold mb-8 text-blue-800">How It Works</h2>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-6xl mx-auto px-4">
-        {steps.map((step, index) => (
-          <motion.div
-            key={index}
-            className="bg-white/80 backdrop-blur-lg shadow-xl rounded-xl p-6 hover:shadow-2xl transition"
-           
-            animate={{ y: [0, -10, 0] }}
-            transition={{
-              repeat: Infinity,
-              duration: 3,
-              ease: "easeInOut",
-              delay: index * 0.3, 
-            }}
-          >
-            <div className="text-4xl mb-3">{step.icon}</div>
-            <h3 className="text-xl font-semibold mb-2 text-blue-900">{step.title}</h3>
-            <p className="text-blue-700">{step.desc}</p>
-          </motion.div>
-        ))}
-      </div>
+     <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-6xl mx-auto px-4">
+  {steps.map((step, index) => (
+    <motion.div
+      key={index}
+      className="bg-white/80 backdrop-blur-lg shadow-xl rounded-xl px-10 hover:shadow-2xl transition 
+                 min-h-[220px] flex flex-col items-center justify-center"
+      style={{ minWidth: "250px" }} // ✅ এই লাইন card এর minimum size fix করবে
+      animate={{ y: [0, -10, 0] }}
+      transition={{
+        repeat: Infinity,
+        duration: 3,
+        ease: "easeInOut",
+        delay: index * 0.3, 
+      }}
+    >
+      <div className="text-4xl mb-3">{step.icon}</div>
+      <h3 className="text-xl font-semibold mb-2 text-blue-900">{step.title}</h3>
+      <p className="text-blue-700 text-center">{step.desc}</p>
+    </motion.div>
+  ))}
+</div>
+
     </section>
   );
 }

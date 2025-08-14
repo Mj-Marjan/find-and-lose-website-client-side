@@ -14,6 +14,7 @@ import UpdatePage from "../Pages/Update/UpdatePage";
 import TeamSlider from "../Pages/Team/TeamSlider";
 import ErrorPage from "../Pages/ErrorPage";
 import StatsSection from "../Pages/StatsSection";
+import SafetyTips from "../Pages/SafetyTips";
 
 
 const router = createBrowserRouter(
@@ -47,6 +48,10 @@ const router = createBrowserRouter(
                 {
                     path: "/stats-section",
                     element: <StatsSection></StatsSection>
+                },
+                {
+                    path: "/safety-tips",
+                    element:<SafetyTips></SafetyTips>
                 },
                 {
                     path: "/manage-items",

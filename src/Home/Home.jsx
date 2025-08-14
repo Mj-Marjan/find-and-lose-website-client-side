@@ -7,6 +7,7 @@ import FaqSection from '../Pages/FaqSection';
 import TeamSlider from '../Pages/Team/TeamSlider';
 import { Helmet } from 'react-helmet';
 import StatsSection from '../Pages/StatsSection';
+import SafetyTips from '../Pages/SafetyTips';
 
 const Home = () => {
     return ( 
@@ -17,6 +18,7 @@ const Home = () => {
             <Slider></Slider>
             <LatestData></LatestData>
             <HowItWorks></HowItWorks>
+            <SafetyTips></SafetyTips>
             <Testimonials></Testimonials>
             <FaqSection></FaqSection>
             <TeamSlider></TeamSlider>
