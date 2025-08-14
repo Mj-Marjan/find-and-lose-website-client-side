@@ -1,4 +1,4 @@
-import React, { use, useState } from "react";
+import React, {  useContext, useState } from "react";
 import { useLoaderData, useNavigate } from "react-router";
 import { motion, AnimatePresence } from "framer-motion";
 import Swal from "sweetalert2";
@@ -11,7 +11,7 @@ import { Helmet } from "react-helmet";
 const ViewDetails = () => {
   const item = useLoaderData();
   const { _id, title, description, date, location, thumbnail, postType, status } = item;
-  const { user } = use(AuthContexts);
+  const { user } = useContext(AuthContexts);
   const navigate = useNavigate();
 
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -83,7 +83,7 @@ const ViewDetails = () => {
         />
 
         {/* Title */}
-        <h1 className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500 mb-2 drop-shadow-md">
+        <h1 className="text-3xl font-extrabold text-transparent bg-clip-text bg-blue-700 mb-2 drop-shadow-md">
           {title}
         </h1>
 

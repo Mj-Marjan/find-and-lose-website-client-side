@@ -11,7 +11,7 @@ const LatestUiData = ({ item }) => {
       whileInView={{ opacity: 1, scale: 1 }}
       whileHover={{ scale: 1.03 }}
       transition={{ duration: 0.3 }}
-      className="relative bg-white overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl cursor-pointer group"
+      className="relative bg-white overflow-hidden rounded-lg shadow-xl hover:shadow-2xl cursor-pointer group"
     >
       {/* image */}
       <img
@@ -34,7 +34,7 @@ const LatestUiData = ({ item }) => {
 
       {/* content */}
       <div className="absolute bottom-0 p-5 w-full text-white space-y-1">
-        <h2 className="text-xl font-bold drop-shadow">{title}</h2>
+        {/* <h2 className="text-xl font-bold drop-shadow">{title}</h2> */}
         <p className="text-sm opacity-90">📍 {location}</p>
         <p className="text-xs opacity-80">🕒 {new Date(date).toLocaleDateString()}</p>
         <p className="text-xs opacity-80">Category: {category}</p>

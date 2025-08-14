@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Lost Something Valuable?",
     "description": "Post your lost item here and let others help you find it back quickly and easily.",
-    "image": "https://i.ibb.co/FkwvTSQp/Chat-GPT-Image-Jul-1-2025-04-46-55-PM.png",
+    "image": "https://media.istockphoto.com/id/1471107598/photo/a-worried-asian-woman-looking-preoccupied-inside-her-suitcase-at-airport-terminal.jpg?s=1024x1024&w=is&k=20&c=pGRlNzUJtaeJBEbAujFebHT2qtf6OFvCV-GpGjB9ORA=",
     "buttonText": "Report Lost Item",
     "link": "/add-item"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "title": "Found Something Unexpected?",
     "description": "If you’ve found a personal item, post it now and connect with its rightful owner.",
-    "image": "https://i.ibb.co/RR68Prd/Chat-GPT-Image-Jul-1-2025-04-51-22-PM.png",
+    "image": "https://media.istockphoto.com/id/113713550/photo/woman-lost-purse-wallet-walking-away.jpg?s=612x612&w=0&k=20&c=TWY4goXsyQkK64doWQdwHpWohyGebIFmHnZ09qiBvpQ=",
     "buttonText": "Report Found Item",
     "link": "/add-item"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "title": "Connect with Real People",
     "description": "Our platform bridges the gap between the finder and the seeker. Be the reason someone smiles today.",
-    "image": "https://media.istockphoto.com/id/841136006/photo/team-of-professional-esport-gamers-playing-in-competitive-video-games-on-a-cyber-games.jpg?s=1024x1024&w=is&k=20&c=Gd1ctJR3LPU2i1POJYhz5-HShD2RpWEVnnu_MOOCFME=",
+    "image": "https://media.istockphoto.com/id/2221488668/photo/middle-aged-caucasian-business-man-confused-with-mobile-phone-trouble-near-office-building.jpg?s=612x612&w=0&k=20&c=wb5vZZPxQ9a56wpwB6wmHav4zuLc5kSgqkikoreoTQE=",
     "buttonText": "View Lost & Found",
     "link": "/teamSlider"
   },

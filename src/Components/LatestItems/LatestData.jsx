@@ -8,7 +8,7 @@ const LatestData = () => {
 
   const latestPosts = itemsData
     .sort((a, b) => new Date(b.date) - new Date(a.date)) // sort by latest date
-    .slice(0, 6); // show only 6
+    .slice(0, 8); // show only 6
 
   return (
     <div className="w-11/12 mx-auto my-12">
@@ -16,7 +16,7 @@ const LatestData = () => {
         Latest Lost & Found Posts
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {
           latestPosts.map(item => (
             <LatestUiData key={item._id} item={item}></LatestUiData>
