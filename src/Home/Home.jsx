@@ -11,7 +11,7 @@ import SafetyTips from '../Pages/SafetyTips';
 
 const Home = () => {
     return ( 
-        <div className='bg-gradient-to-t from-blue-100 to-blue-50'>
+        <div className='bg-gradient-to-t from-blue-100 to-blue-50 dark:from-gray-800 dark:to-gray-900'>
             <Helmet>
                 <title>Home - WhereIsIt</title>
             </Helmet>

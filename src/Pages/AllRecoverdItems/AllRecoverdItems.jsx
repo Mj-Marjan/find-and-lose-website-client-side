@@ -24,7 +24,7 @@ const AllRecoverdItems = () => {
       </Helmet>
       {/* Title and Layout Toggle */}
       <div className="flex justify-between items-center mb-6">
-        <h1 className="text-4xl font-extrabold bg-clip-text text-transparent bg-blue-500 drop-shadow-lg">
+        <h1 className="text-4xl font-extrabold bg-clip-text text-transparent bg-blue-500 dark:bg-black drop-shadow-lg">
           ✨ All Recovered Items ✨
         </h1>
 

@@ -37,7 +37,7 @@ const LostFoundItemsPage = () => {
         <title>Lost & Found Items - Find And Lose</title>
       </Helmet>
       {/* 🌀 Background Gradient + Animation Layer */}
-      <div className="absolute inset-0 -z-20 bg-gradient-to-t from-blue-100 via-white to-blue-50" />
+      <div className="absolute inset-0 -z-20  bg-gradient-to-t from-blue-100 via-white to-blue-50" />
       
       {/* ✅ Main Foreground Content */}
       <div className="relative z-10 max-w-7xl mx-auto">
